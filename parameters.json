@@ -6,43 +6,19 @@
             "value": "westeurope"
         },
         "networkInterfaceName": {
-            "value": "testvm615"
+            "value": "winvm430"
         },
         "subnetName": {
             "value": "default"
         },
-        "virtualNetworkName": {
-            "value": "rg-MyFirstProject-vnet"
-        },
-        "addressPrefixes": {
-            "value": [
-                "10.0.0.0/16"
-            ]
-        },
-        "subnets": {
-            "value": [
-                {
-                    "name": "default",
-                    "properties": {
-                        "addressPrefix": "10.0.0.0/24"
-                    }
-                }
-            ]
-        },
-        "publicIpAddressName": {
-            "value": "testvm-ip"
-        },
-        "publicIpAddressType": {
-            "value": "Dynamic"
-        },
-        "publicIpAddressSku": {
-            "value": "Basic"
+        "virtualNetworkId": {
+            "value": "/subscriptions/5758ce4c-958e-4101-825d-2996626b487f/resourceGroups/rg-MyFirstProject/providers/Microsoft.Network/virtualNetworks/rg-MyFirstProject-vnet"
         },
         "virtualMachineName": {
-            "value": "testvm"
+            "value": "WinVM"
         },
         "virtualMachineComputerName": {
-            "value": "testvm"
+            "value": "WinVM"
         },
         "virtualMachineRG": {
             "value": "rg-MyFirstProject"
@@ -54,7 +30,16 @@
             "value": "Standard_B1s"
         },
         "adminUsername": {
-            "value": "azureuser"
+            "value": "marekadmin"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
         },
         "autoShutdownStatus": {
             "value": "Enabled"
