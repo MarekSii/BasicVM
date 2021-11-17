@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'rg-MyFirstProject'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/MarekSii/BasicVM/main/basicvm.json'
+    csmFileLink: 'https://raw.githubusercontent.com/MarekSii/BasicVM/main/template.json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/MarekSii/BasicVM/main/parameters.json'
     deploymentMode: 'Incremental'
