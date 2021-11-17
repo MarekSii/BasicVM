@@ -9,7 +9,7 @@ trigger:
 pool: MyNotebook
 
 
-steps:
+steps: 
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -20,4 +20,5 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/MarekSii/BasicVM/main/basicvm.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/MarekSii/BasicVM/main/parameters.json'
     deploymentMode: 'Incremental'
